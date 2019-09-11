@@ -1,0 +1,53 @@
+##  Homework 1: Estimation with Uncertainty.
+getwd()
+HumanHemoglobin<-read.csv(file.choose())
+HumanHemoglobin
+head(HumanHemoglobin)
+mean(HumanHemoglobin$hemoglobin)
+sd(HumanHemoglobin$hemoglobin)
+x<-c(HumanHemoglobin$Hemoglobin)
+length(HumanHemoglobin$Hemoglobin)
+result.mean<-mean(x)
+standard.deviation<-function(x){sum((x-mean(x))^2/(length(x)-1))}
+standard.deviation(HumanHemoglobin)
+
+```{r}
+
+
+
+```
+Put text here .... 
+
+```{r}
+
+
+
+```
+
+put text here ... 
+
+
+```{r}
+
+
+
+```
+
+Put text here ..  
+
+```{r}
+
+
+
+
+```
+
+put text here .... 
+
+```{r}
+
+
+
+```
+
+put text here ... 
