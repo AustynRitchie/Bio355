@@ -12,9 +12,12 @@ standard.deviation<-function(x){sum((x-mean(x))^2/(length(x)-1))}
 standard.deviation(HumanHemoglobin)
 
 ```{r}
-
-
-
+stand.dev <- function(x){
+  xxxx
+  xxxx
+  xxx
+  return(YYY)
+}
 ```
 Put text here .... 
 
